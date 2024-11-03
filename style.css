@@ -1,0 +1,393 @@
+/* starter file seup */
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+        
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
+        
+html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+        
+*, *:before, *:after {box-sizing: inherit}
+        
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.wrapper {
+    max-width: 1400px;
+    width: 95%;
+    margin: 0 auto;
+}
+/* stripping styles and setting values for inheritance*/
+body,
+p,
+ul,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+   
+    header{
+    background-image: url('./assets/header-image.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    }
+
+    body{
+        font-size: 20px;
+        font-weight: 400;
+        font: #00476A;
+        color: #00476A;
+        font-family: 'Lato', sans-serif;
+    }
+
+    h1 {
+            font-size: 76px;
+            /* font-family: 'Sirin Stencil', cursive;  */
+            font-family: 'Sirin Stencil'; 
+            color: #00476A;
+            font-weight: 400;
+            padding: 8%;  
+            text-transform: uppercase;
+        }
+
+        /* button{
+            margin-left:8% */
+        
+            
+        
+        span{
+            display: inline-block;
+            width: 70%;
+        }
+
+        nav a {
+        text-decoration: none;
+        color: #00476A;
+        font-size: 25px;
+        font-weight: 400;
+        font-family: 'Lato', sans-serif;
+        padding: 0 15px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: flex-end; 
+            align-items: flex-start;
+        }
+        
+        .logo {
+            font-size: 35px;
+            color: #0E191E;
+            font-weight: 400;
+            font-family: 'Sirin Stencil', cursive;
+            /* padding: 10px; */
+            /* padding-left: 8%;  */
+            text-transform: uppercase;
+            
+        }
+        
+        
+        .mytop{
+            display: flex;
+            /* max-width: 1200px; */
+            justify-content: space-between; 
+            padding: 20px;
+            /* position: fixed;
+            top: 0;
+            left: 80px;
+            right: 80px; */
+        
+
+        }
+
+        .firstsection{
+            display: flex;
+            flex-direction: column;
+             justify-content: center;  
+             align-items: center; 
+            padding-bottom: 40px;
+            max-width: 1000px; 
+            padding-left: 15%;
+            /* word-wrap: none; */
+            /* max-width: vw; */
+        }
+
+        /* before and after elements for first section */
+        .firstsection p:before {
+	     content: " < ";
+         font-size: 25px;
+         font-weight: 800;
+         align-self: justify;
+         /* padding-right: 2%; */
+         color: black;
+        }
+        .firstsection p:after {
+        content: " > ";
+        font-size: 25px;
+        font-weight: 800;
+        align-self: justify;
+        /* padding-right: 2%; */
+        color: black;
+
+}
+        .mytravels{
+            border-radius: 50%;
+            height: 200px;
+            width: 200px;
+
+        }
+        .myrelref{
+            background-color: lightgrey;
+            display: flex;
+            flex-direction: column;
+            height: 500px;
+            justify-content: center;  
+            flex-wrap: wrap;
+            /* align-items: center;  */
+        } 
+        .secondsection{
+            display: flex;
+            /* flex-direction: column; */
+            justify-content: space-around; 
+            align-items: center;
+            flex-wrap: wrap;
+                         
+        }
+        
+    .thirdsection {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        max-width: 1100px;  
+        padding-left: 15%;
+        /* flex: 1 0 20%; */
+        /* position: relative; */
+    }
+
+    .myvase{
+        height: 400px;
+        box-shadow: 12px 15px 0 cadetblue;
+        position: relative;
+        bottom: 50px;
+        right: 50px
+
+    }
+
+    /* adding hover */
+    .myvase:hover {
+        /* box-shadow: 0 12px 15px 0; */
+        background-color: aqua;
+        transition: all 0.2s ease;
+        transform: translate(-20px, -30px);
+        
+        } 
+    
+        .moveright{
+        margin-left: 40px;
+        }
+        .mymove{
+            background: #222428;
+            color: #fff;
+            text-transform: uppercase;
+            position: relative;
+            font-size: 25px;
+            bottom: 70px;
+            right: 60px;  
+        }
+
+    section a {
+        text-decoration: none;
+        color: #333333;
+        background-color: cadetblue;
+        width: 15%;
+        padding: 0 15px;
+        border-radius: 10%;
+    }
+          
+    .mylinkbutton{
+        text-decoration: none;
+        background-color: #00479A;
+        color: #fff;
+        border-radius: 5%;
+        box-shadow: 0 4px 6px 0;
+        /* width: 30%;  */
+        padding: 10px 15px;
+        margin: 8%;
+    }
+    
+    /* adding hover */
+     .mylinkbutton:hover {
+    background-color: rgb(58, 122, 141);
+    }
+         /* centering section p */
+        .firstsection{
+        text-align: center; 
+        padding-top: 10% ;
+        }
+
+         section p {
+        
+        padding: 20px;
+         } 
+
+         h2 {
+        font-size: 40px;
+        font-weight: 400;
+        font-family: 'Sirin Stencil', cursive;
+        text-transform: uppercase;
+        padding: 10px; 
+        text-align: center;
+          }
+
+         h3 {
+            font-size: 30px;
+            font-weight: 400;
+            font-family: 'Lato', sans-serif;
+            padding: 10px;
+         }
+
+         h6{
+             text-align: center;
+             text-transform: uppercase;
+             font-size: 20px;
+             font-family: 'Sirin Stencil', cursive;
+             /* font-weight: 400; */
+             color: #fff;
+          }
+
+         footer{
+             height: 40px;
+             text-align: center;
+             background-color: #0e191e;}
+
+        /* form styles */
+         .storeform{
+                background-color: #222428;
+                width: 100%;
+                
+         }
+
+         input {
+            width: 100%; 
+            margin: 10px;
+            border: 1px solid #00476a;
+            background-color: #222428;
+            padding: 10px;
+            color: #fff;
+        }
+        textarea {
+            resize: none;
+            width: 95%;
+            height: 180px;
+            padding: 10px; 
+            margin: 10px;
+            border: 1px solid #00476a;
+            background-color: #222428;
+            color: #fff;
+        }
+        button{
+            padding: 15px 30px;
+            background-color: #00476a;
+            color: #fff;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            /* display: inline-block;  */
+            margin: auto;
+        
+        }
+        button:hover {
+            background-color: rgb(58, 122, 141);
+            color: white;
+          }
+
+
+        .myforminput{
+            display: flex;
+            /* width: 100%; */
+        }
+
+        .storeform{
+            display: flex;
+            flex-direction: column;
+            margin-top: 3%;
+            /* align-items: center; */
+            justify-content: center; 
+        }
+
+         /* media queries  for cellphone view*/
+         @media (max-width: 500px) 
+         {
+             
+            .mynavg{display: none}
+             .myrelref{ display: block;
+                        height: 550px;     } 
+             .secondsection{display: block;}
+             
+             
+            .mytravels{ display: block;} 
+            .mytravels{
+                border-radius: 50%;
+                height: 150px;
+                width: 150px;
+                margin: auto;
+                padding: 2%;
+            }
+            .mymove{
+                width: 25%;
+                position: relative; 
+                font-size: 15px; 
+                margin: 120px;
+                bottom: 450px;
+                left: 80px; 
+                }
+
+            .thirdsection {display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        } 
+
+            .storeform{
+                margin-top: 5%;
+            }
+
+            .myvase{
+                height: 250px;
+                position: relative;
+                bottom: 2px;
+                right: 50px}
+
+            .moveright{
+                    margin-left: 20px;
+                }
+
+            .myforminput{
+                display: flex;
+                flex-direction: column;
+                     width: 95%; 
+                }
+
+         }
+
+
+
+  
+
+
+
