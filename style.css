@@ -40,7 +40,7 @@ ul {
 
    
     header{
-    background-image: url('./assets/header-image.jpg');
+    background-image: url('Assets/header-image.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
